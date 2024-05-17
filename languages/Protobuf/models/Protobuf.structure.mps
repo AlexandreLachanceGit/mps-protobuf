@@ -209,12 +209,12 @@
     <node concept="PrWs8" id="6AqBQH8wK0$" role="PzmwI">
       <ref role="PrY4T" node="5hH76qRqLXj" resolve="EnumBody" />
     </node>
-    <node concept="1TJgyj" id="6AqBQH8wTlp" role="1TKVEi">
-      <property role="IQ2ns" value="7609569803522774361" />
+    <node concept="1TJgyj" id="6AqBQH8xSHX" role="1TKVEi">
+      <property role="IQ2ns" value="7609569803523033981" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="fieldNames" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6AqBQH8wTk2" resolve="String" />
+      <property role="20kJfa" value="reserved" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6AqBQH8xSI0" resolve="ReservedMember" />
     </node>
   </node>
   <node concept="1TIwiD" id="6AqBQH8wTk2">
@@ -225,6 +225,55 @@
       <property role="IQ2nx" value="7609569803522774277" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6AqBQH8xSHL">
+    <property role="EcuMT" value="7609569803523033969" />
+    <property role="TrG5h" value="StringList" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="6AqBQH8xSHO" role="1TKVEi">
+      <property role="IQ2ns" value="7609569803523033972" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="strings" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6AqBQH8wTk2" resolve="String" />
+    </node>
+    <node concept="PrWs8" id="6AqBQH8xSI2" role="PzmwI">
+      <ref role="PrY4T" node="6AqBQH8xSI0" resolve="ReservedMember" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6AqBQH8xSI0">
+    <property role="EcuMT" value="7609569803523033984" />
+    <property role="TrG5h" value="ReservedMember" />
+  </node>
+  <node concept="1TIwiD" id="6AqBQH8y2dz">
+    <property role="EcuMT" value="7609569803523072867" />
+    <property role="TrG5h" value="RangeList" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="6AqBQH8y2d$" role="PzmwI">
+      <ref role="PrY4T" node="6AqBQH8xSI0" resolve="ReservedMember" />
+    </node>
+    <node concept="1TJgyj" id="6AqBQH8y2f2" role="1TKVEi">
+      <property role="IQ2ns" value="7609569803523072962" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ranges" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6AqBQH8y2dB" resolve="Range" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6AqBQH8y2dB">
+    <property role="EcuMT" value="7609569803523072871" />
+    <property role="TrG5h" value="Range" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="6AqBQH8y2eh" role="1TKVEl">
+      <property role="IQ2nx" value="7609569803523072913" />
+      <property role="TrG5h" value="from" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="6AqBQH8y2ej" role="1TKVEl">
+      <property role="IQ2nx" value="7609569803523072915" />
+      <property role="TrG5h" value="to" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>

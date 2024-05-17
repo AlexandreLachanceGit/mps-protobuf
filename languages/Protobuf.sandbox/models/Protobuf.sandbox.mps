@@ -7,7 +7,15 @@
   <imports />
   <registry>
     <language id="36cc31a5-b693-48c0-bd36-1bd165cb5612" name="Protobuf">
-      <concept id="7609569803522736146" name="Protobuf.structure.Reserved" flags="ng" index="x6pXT" />
+      <concept id="7609569803522774274" name="Protobuf.structure.String" flags="ng" index="x6gDD">
+        <property id="7609569803522774277" name="value" index="x6gDI" />
+      </concept>
+      <concept id="7609569803522736146" name="Protobuf.structure.Reserved" flags="ng" index="x6pXT">
+        <child id="7609569803523033981" name="reserved" index="x7hgm" />
+      </concept>
+      <concept id="7609569803523033969" name="Protobuf.structure.StringList" flags="ng" index="x7hgq">
+        <child id="7609569803523033972" name="strings" index="x7hgv" />
+      </concept>
       <concept id="2653366883849655910" name="Protobuf.structure.Syntax" flags="ng" index="1etB5T" />
       <concept id="2653366883849655906" name="Protobuf.structure.Root" flags="ng" index="1etB5X">
         <child id="2653366883849655913" name="declarations" index="1etB5Q" />
@@ -47,14 +55,16 @@
         <property role="TrG5h" value="TEST" />
         <property role="3z0ih4" value="1" />
       </node>
-      <node concept="x6pXT" id="6AqBQH8xqjX" role="3z1wcW" />
-      <node concept="3z0ihT" id="6AqBQH8xyqt" role="3z1wcW">
-        <property role="TrG5h" value="AKHDKJSA" />
-        <property role="3z0ih4" value="2" />
+      <node concept="x6pXT" id="6AqBQH8ympy" role="3z1wcW">
+        <node concept="x7hgq" id="6AqBQH8ympC" role="x7hgm">
+          <node concept="x6gDD" id="6AqBQH8ympF" role="x7hgv">
+            <property role="x6gDI" value="test" />
+          </node>
+        </node>
       </node>
-      <node concept="3z0ihT" id="6AqBQH8xLnw" role="3z1wcW">
-        <property role="3z0ih4" value="2" />
-        <property role="TrG5h" value="A" />
+      <node concept="1etB74" id="6AqBQH8ympR" role="3z1wcW">
+        <property role="TrG5h" value="test2" />
+        <node concept="3z1f1I" id="6AqBQH8ympT" role="3z1MOf" />
       </node>
     </node>
     <node concept="1etB5T" id="5hH76qRqdYm" role="1etB5S" />

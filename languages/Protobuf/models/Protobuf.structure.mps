@@ -104,10 +104,15 @@
       <property role="TrG5h" value="path" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyi" id="2jiDLXEDdr8" role="1TKVEl">
-      <property role="IQ2nx" value="2653366883849656008" />
-      <property role="TrG5h" value="type" />
-      <ref role="AX2Wp" node="2jiDLXEDdqY" resolve="ImportType" />
+    <node concept="1TJgyi" id="6AqBQH8ymWk" role="1TKVEl">
+      <property role="IQ2nx" value="7609569803523157780" />
+      <property role="TrG5h" value="isPublic" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="6AqBQH8ymWn" role="1TKVEl">
+      <property role="IQ2nx" value="7609569803523157783" />
+      <property role="TrG5h" value="isWeak" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
   <node concept="25R3W" id="2jiDLXEDdqY">

@@ -7,6 +7,14 @@
   <imports />
   <registry>
     <language id="36cc31a5-b693-48c0-bd36-1bd165cb5612" name="Protobuf">
+      <concept id="7609569803523072867" name="Protobuf.structure.RangeList" flags="ng" index="x4FK8">
+        <child id="7609569803523072962" name="ranges" index="x4FMD" />
+      </concept>
+      <concept id="7609569803523072871" name="Protobuf.structure.Range" flags="ng" index="x4FKc">
+        <property id="7609569803523322056" name="hasTo" index="x4mYz" />
+        <property id="7609569803523072915" name="to" index="x4FNS" />
+        <property id="7609569803523072913" name="from" index="x4FNU" />
+      </concept>
       <concept id="7609569803522774274" name="Protobuf.structure.String" flags="ng" index="x6gDD">
         <property id="7609569803522774277" name="value" index="x6gDI" />
       </concept>
@@ -22,6 +30,7 @@
         <child id="2653366883849655911" name="syntax" index="1etB5S" />
       </concept>
       <concept id="2653366883849655957" name="Protobuf.structure.Import" flags="ng" index="1etB6a">
+        <property id="7609569803523157780" name="isPublic" index="x4Z1Z" />
         <property id="2653366883849655966" name="path" index="1etB61" />
       </concept>
       <concept id="2653366883849656027" name="Protobuf.structure.Option" flags="ng" index="1etB74">
@@ -44,6 +53,7 @@
   <node concept="1etB5X" id="5hH76qRqcUB">
     <node concept="1etB6a" id="5hH76qRqqvE" role="1etB5Q">
       <property role="1etB61" value="&quot;hello&quot;" />
+      <property role="x4Z1Z" value="true" />
     </node>
     <node concept="1etB74" id="5hH76qRqCja" role="1etB5Q">
       <property role="TrG5h" value="test" />
@@ -59,6 +69,15 @@
         <node concept="x7hgq" id="6AqBQH8ympC" role="x7hgm">
           <node concept="x6gDD" id="6AqBQH8ympF" role="x7hgv">
             <property role="x6gDI" value="test" />
+          </node>
+        </node>
+      </node>
+      <node concept="x6pXT" id="6AqBQH8zsgS" role="3z1wcW">
+        <node concept="x4FK8" id="6AqBQH8$p3N" role="x7hgm">
+          <node concept="x4FKc" id="6AqBQH8$p3Q" role="x4FMD">
+            <property role="x4FNU" value="1" />
+            <property role="x4FNS" value="1" />
+            <property role="x4mYz" value="true" />
           </node>
         </node>
       </node>

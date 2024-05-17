@@ -16,6 +16,7 @@
         <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
       </concept>
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
         <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
       </concept>
@@ -356,6 +357,7 @@
   <node concept="24kQdi" id="6AqBQH8xSIm">
     <ref role="1XX52x" to="mdxf:6AqBQH8xSHL" resolve="StringList" />
     <node concept="3F2HdR" id="6AqBQH8xSIr" role="2wV5jI">
+      <property role="2czwfO" value="," />
       <ref role="1NtTu8" to="mdxf:6AqBQH8xSHO" resolve="strings" />
     </node>
   </node>
@@ -424,7 +426,9 @@
   <node concept="24kQdi" id="6AqBQH8y2f9">
     <ref role="1XX52x" to="mdxf:6AqBQH8y2dz" resolve="RangeList" />
     <node concept="3F2HdR" id="6AqBQH8y2fe" role="2wV5jI">
+      <property role="2czwfO" value="," />
       <ref role="1NtTu8" to="mdxf:6AqBQH8y2f2" resolve="ranges" />
+      <node concept="3F0ifn" id="6AqBQH8_2b5" role="2czzBI" />
     </node>
   </node>
 </model>

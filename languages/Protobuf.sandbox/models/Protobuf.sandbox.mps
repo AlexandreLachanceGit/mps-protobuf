@@ -76,7 +76,7 @@
         <node concept="x4FK8" id="6AqBQH8$p3N" role="x7hgm">
           <node concept="x4FKc" id="6AqBQH8$p3Q" role="x4FMD">
             <property role="x4FNU" value="1" />
-            <property role="x4FNS" value="1" />
+            <property role="x4FNS" value="10" />
             <property role="x4mYz" value="true" />
           </node>
         </node>

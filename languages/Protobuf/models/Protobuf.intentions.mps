@@ -598,5 +598,263 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="9gPY8MHsp0">
+    <property role="TrG5h" value="RpcAddOptions" />
+    <property role="3GE5qa" value="Rpc" />
+    <ref role="2ZfgGC" to="mdxf:9gPY8MG$K1" resolve="Rpc" />
+    <node concept="2S6ZIM" id="9gPY8MHsp1" role="2ZfVej">
+      <node concept="3clFbS" id="9gPY8MHsp2" role="2VODD2">
+        <node concept="3cpWs6" id="9gPY8MHsFo" role="3cqZAp">
+          <node concept="Xl_RD" id="9gPY8MHsFZ" role="3cqZAk">
+            <property role="Xl_RC" value="Add Options body." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="9gPY8MHsp3" role="2ZfgGD">
+      <node concept="3clFbS" id="9gPY8MHsp4" role="2VODD2">
+        <node concept="3clFbF" id="9gPY8MHuhI" role="3cqZAp">
+          <node concept="37vLTI" id="9gPY8MHwOn" role="3clFbG">
+            <node concept="3clFbT" id="9gPY8MHx2k" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="9gPY8MHuk2" role="37vLTJ">
+              <node concept="2Sf5sV" id="9gPY8MHuhH" role="2Oq$k0" />
+              <node concept="3TrcHB" id="9gPY8MHun5" role="2OqNvi">
+                <ref role="3TsBF5" to="mdxf:9gPY8MGWgh" resolve="hasOptions" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="9gPY8MHsJB" role="2ZfVeh">
+      <node concept="3clFbS" id="9gPY8MHsJC" role="2VODD2">
+        <node concept="3cpWs6" id="9gPY8MHsXT" role="3cqZAp">
+          <node concept="3fqX7Q" id="9gPY8MHtc1" role="3cqZAk">
+            <node concept="2OqwBi" id="9gPY8MHt_4" role="3fr31v">
+              <node concept="2Sf5sV" id="9gPY8MHtcM" role="2Oq$k0" />
+              <node concept="3TrcHB" id="9gPY8MHudL" role="2OqNvi">
+                <ref role="3TsBF5" to="mdxf:9gPY8MGWgh" resolve="hasOptions" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="9gPY8MHxuJ">
+    <property role="TrG5h" value="RpcRemoveOptions" />
+    <property role="3GE5qa" value="Rpc" />
+    <ref role="2ZfgGC" to="mdxf:9gPY8MG$K1" resolve="Rpc" />
+    <node concept="2S6ZIM" id="9gPY8MHxuK" role="2ZfVej">
+      <node concept="3clFbS" id="9gPY8MHxuL" role="2VODD2">
+        <node concept="3cpWs6" id="9gPY8MHxuM" role="3cqZAp">
+          <node concept="Xl_RD" id="9gPY8MHxuN" role="3cqZAk">
+            <property role="Xl_RC" value="Remove Options body." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="9gPY8MHxuO" role="2ZfgGD">
+      <node concept="3clFbS" id="9gPY8MHxuP" role="2VODD2">
+        <node concept="3clFbF" id="9gPY8MHxuQ" role="3cqZAp">
+          <node concept="37vLTI" id="9gPY8MHxuR" role="3clFbG">
+            <node concept="2OqwBi" id="9gPY8MHxuT" role="37vLTJ">
+              <node concept="2Sf5sV" id="9gPY8MHxuU" role="2Oq$k0" />
+              <node concept="3TrcHB" id="9gPY8MHxuV" role="2OqNvi">
+                <ref role="3TsBF5" to="mdxf:9gPY8MGWgh" resolve="hasOptions" />
+              </node>
+            </node>
+            <node concept="3clFbT" id="9gPY8MHyAI" role="37vLTx" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="9gPY8MHxuW" role="2ZfVeh">
+      <node concept="3clFbS" id="9gPY8MHxuX" role="2VODD2">
+        <node concept="3cpWs6" id="9gPY8MHxuY" role="3cqZAp">
+          <node concept="2OqwBi" id="9gPY8MHxv0" role="3cqZAk">
+            <node concept="2Sf5sV" id="9gPY8MHxv1" role="2Oq$k0" />
+            <node concept="3TrcHB" id="9gPY8MHxv2" role="2OqNvi">
+              <ref role="3TsBF5" to="mdxf:9gPY8MGWgh" resolve="hasOptions" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="9gPY8MHyO_">
+    <property role="TrG5h" value="RpcAddStreamIn" />
+    <property role="3GE5qa" value="Rpc" />
+    <ref role="2ZfgGC" to="mdxf:9gPY8MG$K1" resolve="Rpc" />
+    <node concept="2S6ZIM" id="9gPY8MHyOA" role="2ZfVej">
+      <node concept="3clFbS" id="9gPY8MHyOB" role="2VODD2">
+        <node concept="3cpWs6" id="9gPY8MHyOC" role="3cqZAp">
+          <node concept="Xl_RD" id="9gPY8MHyOD" role="3cqZAk">
+            <property role="Xl_RC" value="Enable streaming for input." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="9gPY8MHyOE" role="2ZfgGD">
+      <node concept="3clFbS" id="9gPY8MHyOF" role="2VODD2">
+        <node concept="3clFbF" id="9gPY8MHyOG" role="3cqZAp">
+          <node concept="37vLTI" id="9gPY8MHyOH" role="3clFbG">
+            <node concept="3clFbT" id="9gPY8MHyOI" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="9gPY8MHyOJ" role="37vLTJ">
+              <node concept="2Sf5sV" id="9gPY8MHyOK" role="2Oq$k0" />
+              <node concept="3TrcHB" id="9gPY8MH$Go" role="2OqNvi">
+                <ref role="3TsBF5" to="mdxf:9gPY8MHptU" resolve="streamIn" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="9gPY8MHyOM" role="2ZfVeh">
+      <node concept="3clFbS" id="9gPY8MHyON" role="2VODD2">
+        <node concept="3cpWs6" id="9gPY8MHyOO" role="3cqZAp">
+          <node concept="3fqX7Q" id="9gPY8MHyOP" role="3cqZAk">
+            <node concept="2OqwBi" id="9gPY8MHyOQ" role="3fr31v">
+              <node concept="2Sf5sV" id="9gPY8MHyOR" role="2Oq$k0" />
+              <node concept="3TrcHB" id="9gPY8MH$_T" role="2OqNvi">
+                <ref role="3TsBF5" to="mdxf:9gPY8MHptU" resolve="streamIn" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="9gPY8MH$H9">
+    <property role="TrG5h" value="RpcAddStreamOut" />
+    <property role="3GE5qa" value="Rpc" />
+    <ref role="2ZfgGC" to="mdxf:9gPY8MG$K1" resolve="Rpc" />
+    <node concept="2S6ZIM" id="9gPY8MH$Ha" role="2ZfVej">
+      <node concept="3clFbS" id="9gPY8MH$Hb" role="2VODD2">
+        <node concept="3cpWs6" id="9gPY8MH$Hc" role="3cqZAp">
+          <node concept="Xl_RD" id="9gPY8MH$Hd" role="3cqZAk">
+            <property role="Xl_RC" value="Enable streaming for output." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="9gPY8MH$He" role="2ZfgGD">
+      <node concept="3clFbS" id="9gPY8MH$Hf" role="2VODD2">
+        <node concept="3clFbF" id="9gPY8MH$Hg" role="3cqZAp">
+          <node concept="37vLTI" id="9gPY8MH$Hh" role="3clFbG">
+            <node concept="3clFbT" id="9gPY8MH$Hi" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="9gPY8MH$Hj" role="37vLTJ">
+              <node concept="2Sf5sV" id="9gPY8MH$Hk" role="2Oq$k0" />
+              <node concept="3TrcHB" id="9gPY8MH$Hl" role="2OqNvi">
+                <ref role="3TsBF5" to="mdxf:9gPY8MHptX" resolve="streamOut" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="9gPY8MH$Hm" role="2ZfVeh">
+      <node concept="3clFbS" id="9gPY8MH$Hn" role="2VODD2">
+        <node concept="3cpWs6" id="9gPY8MH$Ho" role="3cqZAp">
+          <node concept="3fqX7Q" id="9gPY8MH$Hp" role="3cqZAk">
+            <node concept="2OqwBi" id="9gPY8MH$Hq" role="3fr31v">
+              <node concept="2Sf5sV" id="9gPY8MH$Hr" role="2Oq$k0" />
+              <node concept="3TrcHB" id="9gPY8MH$Hs" role="2OqNvi">
+                <ref role="3TsBF5" to="mdxf:9gPY8MHptX" resolve="streamOut" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="9gPY8MH_z2">
+    <property role="TrG5h" value="RpcRemoveStreamIn" />
+    <property role="3GE5qa" value="Rpc" />
+    <ref role="2ZfgGC" to="mdxf:9gPY8MG$K1" resolve="Rpc" />
+    <node concept="2S6ZIM" id="9gPY8MH_z3" role="2ZfVej">
+      <node concept="3clFbS" id="9gPY8MH_z4" role="2VODD2">
+        <node concept="3cpWs6" id="9gPY8MH_z5" role="3cqZAp">
+          <node concept="Xl_RD" id="9gPY8MH_z6" role="3cqZAk">
+            <property role="Xl_RC" value="Disable streaming for input." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="9gPY8MH_z7" role="2ZfgGD">
+      <node concept="3clFbS" id="9gPY8MH_z8" role="2VODD2">
+        <node concept="3clFbF" id="9gPY8MH_z9" role="3cqZAp">
+          <node concept="37vLTI" id="9gPY8MH_za" role="3clFbG">
+            <node concept="2OqwBi" id="9gPY8MH_zc" role="37vLTJ">
+              <node concept="2Sf5sV" id="9gPY8MH_zd" role="2Oq$k0" />
+              <node concept="3TrcHB" id="9gPY8MH_ze" role="2OqNvi">
+                <ref role="3TsBF5" to="mdxf:9gPY8MHptU" resolve="streamIn" />
+              </node>
+            </node>
+            <node concept="3clFbT" id="9gPY8MHAQD" role="37vLTx" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="9gPY8MH_zf" role="2ZfVeh">
+      <node concept="3clFbS" id="9gPY8MH_zg" role="2VODD2">
+        <node concept="3cpWs6" id="9gPY8MH_zh" role="3cqZAp">
+          <node concept="2OqwBi" id="9gPY8MH_zj" role="3cqZAk">
+            <node concept="2Sf5sV" id="9gPY8MH_zk" role="2Oq$k0" />
+            <node concept="3TrcHB" id="9gPY8MHAM$" role="2OqNvi">
+              <ref role="3TsBF5" to="mdxf:9gPY8MHptU" resolve="streamIn" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="9gPY8MHB4w">
+    <property role="TrG5h" value="RpcRemoveStreamOut" />
+    <property role="3GE5qa" value="Rpc" />
+    <ref role="2ZfgGC" to="mdxf:9gPY8MG$K1" resolve="Rpc" />
+    <node concept="2S6ZIM" id="9gPY8MHB4x" role="2ZfVej">
+      <node concept="3clFbS" id="9gPY8MHB4y" role="2VODD2">
+        <node concept="3cpWs6" id="9gPY8MHB4z" role="3cqZAp">
+          <node concept="Xl_RD" id="9gPY8MHB4$" role="3cqZAk">
+            <property role="Xl_RC" value="Disable streaming for output." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="9gPY8MHB4_" role="2ZfgGD">
+      <node concept="3clFbS" id="9gPY8MHB4A" role="2VODD2">
+        <node concept="3clFbF" id="9gPY8MHB4B" role="3cqZAp">
+          <node concept="37vLTI" id="9gPY8MHB4C" role="3clFbG">
+            <node concept="2OqwBi" id="9gPY8MHB4D" role="37vLTJ">
+              <node concept="2Sf5sV" id="9gPY8MHB4E" role="2Oq$k0" />
+              <node concept="3TrcHB" id="9gPY8MHB4F" role="2OqNvi">
+                <ref role="3TsBF5" to="mdxf:9gPY8MHptX" resolve="streamOut" />
+              </node>
+            </node>
+            <node concept="3clFbT" id="9gPY8MHB4G" role="37vLTx" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="9gPY8MHB4H" role="2ZfVeh">
+      <node concept="3clFbS" id="9gPY8MHB4I" role="2VODD2">
+        <node concept="3cpWs6" id="9gPY8MHB4J" role="3cqZAp">
+          <node concept="2OqwBi" id="9gPY8MHB4K" role="3cqZAk">
+            <node concept="2Sf5sV" id="9gPY8MHB4L" role="2Oq$k0" />
+            <node concept="3TrcHB" id="9gPY8MHB4M" role="2OqNvi">
+              <ref role="3TsBF5" to="mdxf:9gPY8MHptX" resolve="streamOut" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

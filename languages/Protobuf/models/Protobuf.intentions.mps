@@ -513,9 +513,9 @@
     </node>
   </node>
   <node concept="2S6QgY" id="9gPY8MCVwv">
-    <property role="3GE5qa" value="NormalField" />
+    <property role="3GE5qa" value="FieldOptions" />
     <property role="TrG5h" value="AddFieldOptions" />
-    <ref role="2ZfgGC" to="mdxf:9gPY8MC$hb" resolve="NormalField" />
+    <ref role="2ZfgGC" to="mdxf:9gPY8MFIUG" resolve="IFieldOptions" />
     <node concept="2S6ZIM" id="9gPY8MCVww" role="2ZfVej">
       <node concept="3clFbS" id="9gPY8MCVwx" role="2VODD2">
         <node concept="3cpWs6" id="9gPY8MCVMg" role="3cqZAp">
@@ -535,7 +535,7 @@
             <node concept="2OqwBi" id="9gPY8MCX8r" role="37vLTJ">
               <node concept="2Sf5sV" id="9gPY8MCWXq" role="2Oq$k0" />
               <node concept="3TrcHB" id="9gPY8MCXzO" role="2OqNvi">
-                <ref role="3TsBF5" to="mdxf:9gPY8MC$h_" resolve="hasOptions" />
+                <ref role="3TsBF5" to="mdxf:9gPY8MFKk4" resolve="hasOptions" />
               </node>
             </node>
           </node>
@@ -549,7 +549,7 @@
             <node concept="2OqwBi" id="9gPY8MCWVF" role="3fr31v">
               <node concept="2Sf5sV" id="9gPY8MCWVG" role="2Oq$k0" />
               <node concept="3TrcHB" id="9gPY8MCWVH" role="2OqNvi">
-                <ref role="3TsBF5" to="mdxf:9gPY8MC$h_" resolve="hasOptions" />
+                <ref role="3TsBF5" to="mdxf:9gPY8MFKk4" resolve="hasOptions" />
               </node>
             </node>
           </node>
@@ -558,9 +558,9 @@
     </node>
   </node>
   <node concept="2S6QgY" id="9gPY8MD0K6">
-    <property role="3GE5qa" value="NormalField" />
+    <property role="3GE5qa" value="FieldOptions" />
     <property role="TrG5h" value="RemoveFieldOptions" />
-    <ref role="2ZfgGC" to="mdxf:9gPY8MC$hb" resolve="NormalField" />
+    <ref role="2ZfgGC" to="mdxf:9gPY8MFIUG" resolve="IFieldOptions" />
     <node concept="2S6ZIM" id="9gPY8MD0K7" role="2ZfVej">
       <node concept="3clFbS" id="9gPY8MD0K8" role="2VODD2">
         <node concept="3cpWs6" id="9gPY8MD11U" role="3cqZAp">
@@ -578,7 +578,7 @@
             <node concept="2OqwBi" id="9gPY8MD8Mq" role="37vLTJ">
               <node concept="2Sf5sV" id="9gPY8MD8LN" role="2Oq$k0" />
               <node concept="3TrcHB" id="9gPY8MD8PB" role="2OqNvi">
-                <ref role="3TsBF5" to="mdxf:9gPY8MC$h_" resolve="hasOptions" />
+                <ref role="3TsBF5" to="mdxf:9gPY8MFKk4" resolve="hasOptions" />
               </node>
             </node>
           </node>
@@ -591,93 +591,7 @@
           <node concept="2OqwBi" id="9gPY8MD2pb" role="3cqZAk">
             <node concept="2Sf5sV" id="9gPY8MD20Z" role="2Oq$k0" />
             <node concept="3TrcHB" id="9gPY8MD31E" role="2OqNvi">
-              <ref role="3TsBF5" to="mdxf:9gPY8MC$h_" resolve="hasOptions" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2S6QgY" id="9gPY8ME_z$">
-    <property role="3GE5qa" value="MapField" />
-    <property role="TrG5h" value="AddFieldOptionsMap" />
-    <ref role="2ZfgGC" to="mdxf:9gPY8MEyDm" resolve="MapField" />
-    <node concept="2S6ZIM" id="9gPY8ME_z_" role="2ZfVej">
-      <node concept="3clFbS" id="9gPY8ME_zA" role="2VODD2">
-        <node concept="3cpWs6" id="9gPY8ME_zB" role="3cqZAp">
-          <node concept="Xl_RD" id="9gPY8ME_zC" role="3cqZAk">
-            <property role="Xl_RC" value="Add field options." />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="9gPY8ME_zD" role="2ZfgGD">
-      <node concept="3clFbS" id="9gPY8ME_zE" role="2VODD2">
-        <node concept="3clFbF" id="9gPY8ME_zF" role="3cqZAp">
-          <node concept="37vLTI" id="9gPY8ME_zG" role="3clFbG">
-            <node concept="3clFbT" id="9gPY8ME_zH" role="37vLTx">
-              <property role="3clFbU" value="true" />
-            </node>
-            <node concept="2OqwBi" id="9gPY8ME_zI" role="37vLTJ">
-              <node concept="2Sf5sV" id="9gPY8ME_zJ" role="2Oq$k0" />
-              <node concept="3TrcHB" id="9gPY8ME_zK" role="2OqNvi">
-                <ref role="3TsBF5" to="mdxf:9gPY8MEyDo" resolve="hasOptions" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2SaL7w" id="9gPY8ME_zL" role="2ZfVeh">
-      <node concept="3clFbS" id="9gPY8ME_zM" role="2VODD2">
-        <node concept="3cpWs6" id="9gPY8ME_zN" role="3cqZAp">
-          <node concept="3fqX7Q" id="9gPY8ME_zO" role="3cqZAk">
-            <node concept="2OqwBi" id="9gPY8ME_zP" role="3fr31v">
-              <node concept="2Sf5sV" id="9gPY8ME_zQ" role="2Oq$k0" />
-              <node concept="3TrcHB" id="9gPY8ME_zR" role="2OqNvi">
-                <ref role="3TsBF5" to="mdxf:9gPY8MEyDo" resolve="hasOptions" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2S6QgY" id="9gPY8MEBtI">
-    <property role="3GE5qa" value="MapField" />
-    <property role="TrG5h" value="RemoveFieldOptionsMap" />
-    <ref role="2ZfgGC" to="mdxf:9gPY8MEyDm" resolve="MapField" />
-    <node concept="2S6ZIM" id="9gPY8MEBtJ" role="2ZfVej">
-      <node concept="3clFbS" id="9gPY8MEBtK" role="2VODD2">
-        <node concept="3cpWs6" id="9gPY8MEBtL" role="3cqZAp">
-          <node concept="Xl_RD" id="9gPY8MEBtM" role="3cqZAk">
-            <property role="Xl_RC" value="Remove field options." />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="9gPY8MEBtN" role="2ZfgGD">
-      <node concept="3clFbS" id="9gPY8MEBtO" role="2VODD2">
-        <node concept="3clFbF" id="9gPY8MEBtP" role="3cqZAp">
-          <node concept="37vLTI" id="9gPY8MEBtQ" role="3clFbG">
-            <node concept="3clFbT" id="9gPY8MEBtR" role="37vLTx" />
-            <node concept="2OqwBi" id="9gPY8MEBtS" role="37vLTJ">
-              <node concept="2Sf5sV" id="9gPY8MEBtT" role="2Oq$k0" />
-              <node concept="3TrcHB" id="9gPY8MEBtU" role="2OqNvi">
-                <ref role="3TsBF5" to="mdxf:9gPY8MEyDo" resolve="hasOptions" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2SaL7w" id="9gPY8MEBtV" role="2ZfVeh">
-      <node concept="3clFbS" id="9gPY8MEBtW" role="2VODD2">
-        <node concept="3cpWs6" id="9gPY8MEBtX" role="3cqZAp">
-          <node concept="2OqwBi" id="9gPY8MEBtY" role="3cqZAk">
-            <node concept="2Sf5sV" id="9gPY8MEBtZ" role="2Oq$k0" />
-            <node concept="3TrcHB" id="9gPY8MEBu0" role="2OqNvi">
-              <ref role="3TsBF5" to="mdxf:9gPY8MEyDo" resolve="hasOptions" />
+              <ref role="3TsBF5" to="mdxf:9gPY8MFKk4" resolve="hasOptions" />
             </node>
           </node>
         </node>

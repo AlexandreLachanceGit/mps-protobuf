@@ -194,6 +194,9 @@
     <node concept="PrWs8" id="5hH76qRr3x2" role="PzmwI">
       <ref role="PrY4T" node="5hH76qRqLXj" resolve="IEnumBody" />
     </node>
+    <node concept="PrWs8" id="9gPY8MFIV2" role="PzmwI">
+      <ref role="PrY4T" node="9gPY8MFIUG" resolve="IFieldOptions" />
+    </node>
     <node concept="1TJgyi" id="5hH76qRr3wy" role="1TKVEl">
       <property role="IQ2nx" value="6083549899136972834" />
       <property role="TrG5h" value="index" />
@@ -469,11 +472,6 @@
       <property role="TrG5h" value="repeated" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-    <node concept="1TJgyi" id="9gPY8MC$h_" role="1TKVEl">
-      <property role="IQ2nx" value="166870552724784229" />
-      <property role="TrG5h" value="hasOptions" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
     <node concept="1TJgyi" id="9gPY8MC$hx" role="1TKVEl">
       <property role="IQ2nx" value="166870552724784225" />
       <property role="TrG5h" value="fieldNumber" />
@@ -486,18 +484,14 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpck:hYa1RjM" resolve="IType" />
     </node>
-    <node concept="1TJgyj" id="9gPY8MC$hE" role="1TKVEi">
-      <property role="IQ2ns" value="166870552724784234" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="options" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="9gPY8MC$hN" resolve="FieldOption" />
-    </node>
     <node concept="PrWs8" id="9gPY8MC$hr" role="PzmwI">
       <ref role="PrY4T" node="6AqBQH8_xqb" resolve="IMessageBody" />
     </node>
     <node concept="PrWs8" id="9gPY8MC$ht" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="9gPY8MFIUV" role="PzmwI">
+      <ref role="PrY4T" node="9gPY8MFIUG" resolve="IFieldOptions" />
     </node>
   </node>
   <node concept="1TIwiD" id="9gPY8MC$hN">
@@ -524,11 +518,6 @@
     <property role="EcuMT" value="166870552725301846" />
     <property role="TrG5h" value="MapField" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyi" id="9gPY8MEyDo" role="1TKVEl">
-      <property role="IQ2nx" value="166870552725301848" />
-      <property role="TrG5h" value="hasOptions" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
     <node concept="1TJgyi" id="9gPY8MEyDp" role="1TKVEl">
       <property role="IQ2nx" value="166870552725301849" />
       <property role="TrG5h" value="fieldNumber" />
@@ -548,18 +537,30 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="9gPY8MEyCp" resolve="IKeyType" />
     </node>
-    <node concept="1TJgyj" id="9gPY8MEyDr" role="1TKVEi">
-      <property role="IQ2ns" value="166870552725301851" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="options" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="9gPY8MC$hN" resolve="FieldOption" />
-    </node>
     <node concept="PrWs8" id="9gPY8MEyDs" role="PzmwI">
       <ref role="PrY4T" node="6AqBQH8_xqb" resolve="IMessageBody" />
     </node>
     <node concept="PrWs8" id="9gPY8MEyDt" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="9gPY8MFIUQ" role="PzmwI">
+      <ref role="PrY4T" node="9gPY8MFIUG" resolve="IFieldOptions" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="9gPY8MFIUG">
+    <property role="EcuMT" value="166870552725614252" />
+    <property role="TrG5h" value="IFieldOptions" />
+    <node concept="1TJgyj" id="9gPY8MFIUK" role="1TKVEi">
+      <property role="IQ2ns" value="166870552725614256" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="9gPY8MC$hN" resolve="FieldOption" />
+    </node>
+    <node concept="1TJgyi" id="9gPY8MFKk4" role="1TKVEl">
+      <property role="IQ2nx" value="166870552725619972" />
+      <property role="TrG5h" value="hasOptions" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
 </model>

@@ -7,23 +7,6 @@
   <imports />
   <registry>
     <language id="36cc31a5-b693-48c0-bd36-1bd165cb5612" name="Protobuf">
-      <concept id="7609569803523072867" name="Protobuf.structure.RangeList" flags="ng" index="x4FK8">
-        <child id="7609569803523072962" name="ranges" index="x4FMD" />
-      </concept>
-      <concept id="7609569803523072871" name="Protobuf.structure.Range" flags="ng" index="x4FKc">
-        <property id="7609569803523322056" name="hasTo" index="x4mYz" />
-        <property id="7609569803523072915" name="to" index="x4FNS" />
-        <property id="7609569803523072913" name="from" index="x4FNU" />
-      </concept>
-      <concept id="7609569803522774274" name="Protobuf.structure.String" flags="ng" index="x6gDD">
-        <property id="7609569803522774277" name="value" index="x6gDI" />
-      </concept>
-      <concept id="7609569803522736146" name="Protobuf.structure.Reserved" flags="ng" index="x6pXT">
-        <child id="7609569803523033981" name="reserved" index="x7hgm" />
-      </concept>
-      <concept id="7609569803523033969" name="Protobuf.structure.StringList" flags="ng" index="x7hgq">
-        <child id="7609569803523033972" name="strings" index="x7hgv" />
-      </concept>
       <concept id="166870552724784243" name="Protobuf.structure.FieldOption" flags="ng" index="KWDeh">
         <child id="166870552724784249" name="constant" index="KWDer" />
       </concept>
@@ -31,15 +14,10 @@
         <property id="166870552724784225" name="fieldNumber" index="KWDe3" />
         <child id="166870552724784208" name="type" index="KWDeM" />
       </concept>
-      <concept id="166870552724784058" name="Protobuf.structure.Bool" flags="ng" index="KWDho" />
-      <concept id="166870552724784061" name="Protobuf.structure.StringType" flags="ng" index="KWDhv" />
-      <concept id="166870552724784025" name="Protobuf.structure.Int32" flags="ng" index="KWDhV" />
-      <concept id="166870552725301846" name="Protobuf.structure.MapField" flags="ng" index="KYJQO">
-        <property id="166870552725301848" name="hasOptions" index="KYJQU" />
-        <property id="166870552725301849" name="fieldNumber" index="KYJQV" />
-        <child id="166870552725301858" name="keytype" index="KYJQ0" />
-        <child id="166870552725301850" name="type" index="KYJQS" />
-        <child id="166870552725301851" name="options" index="KYJQT" />
+      <concept id="166870552724784028" name="Protobuf.structure.Int64" flags="ng" index="KWDhY" />
+      <concept id="166870552725614252" name="Protobuf.structure.IFieldOptions" flags="ngI" index="KZz_e">
+        <property id="166870552725619972" name="hasOptions" index="KZXbA" />
+        <child id="166870552725614256" name="options" index="KZz_i" />
       </concept>
       <concept id="2653366883849655910" name="Protobuf.structure.Syntax" flags="ng" index="1etB5T" />
       <concept id="2653366883849655906" name="Protobuf.structure.Root" flags="ng" index="1etB5X">
@@ -72,65 +50,53 @@
   </registry>
   <node concept="1etB5X" id="5hH76qRqcUB">
     <node concept="1etB6a" id="5hH76qRqqvE" role="1etB5Q">
-      <property role="1etB61" value="&quot;hello&quot;" />
+      <property role="1etB61" value="&quot;other.proto&quot;" />
       <property role="x4Z1Z" value="true" />
     </node>
-    <node concept="1etB74" id="5hH76qRqCja" role="1etB5Q">
-      <property role="TrG5h" value="test" />
-      <node concept="3z1f1I" id="5hH76qRqCjc" role="3z1MOf" />
+    <node concept="1etB74" id="9gPY8MFHjn" role="1etB5Q">
+      <property role="TrG5h" value="java_package" />
+      <node concept="3z1f1I" id="9gPY8MFHjp" role="3z1MOf" />
     </node>
     <node concept="1etB7c" id="5hH76qRqS39" role="1etB5Q">
-      <property role="TrG5h" value="Test" />
-      <node concept="3z0ihT" id="5hH76qRrb7N" role="3z1wcW">
-        <property role="TrG5h" value="TEST" />
+      <property role="TrG5h" value="EnumAllowingAlias" />
+      <node concept="1etB74" id="9gPY8MFHlw" role="3z1wcW">
+        <property role="TrG5h" value="allow_alias" />
+        <node concept="3z1f1I" id="9gPY8MFHlx" role="3z1MOf" />
+      </node>
+      <node concept="3z0ihT" id="9gPY8MFHlC" role="3z1wcW">
+        <property role="TrG5h" value="EAA_UNSPECIFIED" />
+        <property role="3z0ih4" value="0" />
+      </node>
+      <node concept="3z0ihT" id="9gPY8MFHm4" role="3z1wcW">
+        <property role="TrG5h" value="EAA_STARTED" />
         <property role="3z0ih4" value="1" />
       </node>
-      <node concept="x6pXT" id="6AqBQH8ympy" role="3z1wcW">
-        <node concept="x7hgq" id="6AqBQH8ympC" role="x7hgm">
-          <node concept="x6gDD" id="6AqBQH8ympF" role="x7hgv">
-            <property role="x6gDI" value="test" />
-          </node>
-        </node>
+      <node concept="3z0ihT" id="9gPY8MFHmj" role="3z1wcW">
+        <property role="TrG5h" value="EAA_RUNNING" />
+        <property role="3z0ih4" value="1" />
       </node>
-      <node concept="x6pXT" id="6AqBQH8zsgS" role="3z1wcW">
-        <node concept="x4FK8" id="6AqBQH8$p3N" role="x7hgm">
-          <node concept="x4FKc" id="6AqBQH8$p3Q" role="x4FMD">
-            <property role="x4FNU" value="1" />
-            <property role="x4FNS" value="10" />
-            <property role="x4mYz" value="true" />
-          </node>
+      <node concept="3z0ihT" id="9gPY8MFHmp" role="3z1wcW">
+        <property role="TrG5h" value="EAA_FINISHED" />
+        <property role="3z0ih4" value="2" />
+        <property role="KZXbA" value="true" />
+        <node concept="KWDeh" id="9gPY8MGgcn" role="KZz_i">
+          <property role="TrG5h" value="(custom_option)" />
+          <node concept="3z1f1I" id="9gPY8MGgco" role="KWDer" />
         </node>
-      </node>
-      <node concept="1etB74" id="6AqBQH8ympR" role="3z1wcW">
-        <property role="TrG5h" value="test2" />
-        <node concept="3z1f1I" id="6AqBQH8ympT" role="3z1MOf" />
       </node>
     </node>
     <node concept="1etB7j" id="6AqBQH8_HGG" role="1etB5Q">
-      <property role="TrG5h" value="Mess" />
-      <node concept="KWDeD" id="9gPY8ME4z9" role="x3bX3">
-        <property role="TrG5h" value="field" />
-        <property role="KWDe3" value="1" />
-        <node concept="KWDho" id="9gPY8ME4zd" role="KWDeM" />
+      <property role="TrG5h" value="Outer" />
+      <node concept="1etB74" id="9gPY8MGgct" role="x3bX3">
+        <property role="TrG5h" value="(my_option).a" />
+        <node concept="3z1f1I" id="9gPY8MGgcu" role="3z1MOf" />
       </node>
-      <node concept="KWDeD" id="9gPY8ME4zs" role="x3bX3">
-        <property role="TrG5h" value="test" />
-        <property role="KWDe3" value="2" />
-        <node concept="KWDhv" id="9gPY8ME4zz" role="KWDeM" />
-      </node>
-      <node concept="KYJQO" id="9gPY8MFrBv" role="x3bX3">
-        <property role="TrG5h" value="mapField" />
-        <property role="KYJQV" value="1" />
-        <property role="KYJQU" value="true" />
-        <node concept="KWDhV" id="9gPY8MFrBH" role="KYJQS" />
-        <node concept="KWDhv" id="9gPY8MFrBE" role="KYJQ0" />
-        <node concept="KWDeh" id="9gPY8MFrBK" role="KYJQT">
-          <property role="TrG5h" value="hello" />
-          <node concept="3z1f1I" id="9gPY8MFrBL" role="KWDer" />
-        </node>
-        <node concept="KWDeh" id="9gPY8MFrBU" role="KYJQT">
-          <property role="TrG5h" value="world" />
-          <node concept="3z1f1I" id="9gPY8MFrBV" role="KWDer" />
+      <node concept="1etB7j" id="9gPY8MGgc_" role="x3bX3">
+        <property role="TrG5h" value="Inner" />
+        <node concept="KWDeD" id="9gPY8MGgcG" role="x3bX3">
+          <property role="TrG5h" value="ival" />
+          <property role="KWDe3" value="1" />
+          <node concept="KWDhY" id="9gPY8MGgcL" role="KWDeM" />
         </node>
       </node>
     </node>

@@ -24,6 +24,12 @@
       <concept id="7609569803523033969" name="Protobuf.structure.StringList" flags="ng" index="x7hgq">
         <child id="7609569803523033972" name="strings" index="x7hgv" />
       </concept>
+      <concept id="166870552724784203" name="Protobuf.structure.NormalField" flags="ng" index="KWDeD">
+        <property id="166870552724784225" name="fieldNumber" index="KWDe3" />
+        <child id="166870552724784208" name="type" index="KWDeM" />
+      </concept>
+      <concept id="166870552724784058" name="Protobuf.structure.Bool" flags="ng" index="KWDho" />
+      <concept id="166870552724784061" name="Protobuf.structure.StringType" flags="ng" index="KWDhv" />
       <concept id="2653366883849655910" name="Protobuf.structure.Syntax" flags="ng" index="1etB5T" />
       <concept id="2653366883849655906" name="Protobuf.structure.Root" flags="ng" index="1etB5X">
         <child id="2653366883849655913" name="declarations" index="1etB5Q" />
@@ -38,6 +44,9 @@
       </concept>
       <concept id="2653366883849656019" name="Protobuf.structure.Enum" flags="ng" index="1etB7c">
         <child id="6083549899136900954" name="body" index="3z1wcW" />
+      </concept>
+      <concept id="2653366883849656012" name="Protobuf.structure.Message" flags="ng" index="1etB7j">
+        <child id="7609569803523989544" name="body" index="x3bX3" />
       </concept>
       <concept id="6083549899136972831" name="Protobuf.structure.EnumField" flags="ng" index="3z0ihT">
         <property id="6083549899136972834" name="index" index="3z0ih4" />
@@ -84,6 +93,19 @@
       <node concept="1etB74" id="6AqBQH8ympR" role="3z1wcW">
         <property role="TrG5h" value="test2" />
         <node concept="3z1f1I" id="6AqBQH8ympT" role="3z1MOf" />
+      </node>
+    </node>
+    <node concept="1etB7j" id="6AqBQH8_HGG" role="1etB5Q">
+      <property role="TrG5h" value="Mess" />
+      <node concept="KWDeD" id="9gPY8ME4z9" role="x3bX3">
+        <property role="TrG5h" value="field" />
+        <property role="KWDe3" value="1" />
+        <node concept="KWDho" id="9gPY8ME4zd" role="KWDeM" />
+      </node>
+      <node concept="KWDeD" id="9gPY8ME4zs" role="x3bX3">
+        <property role="TrG5h" value="test" />
+        <property role="KWDe3" value="2" />
+        <node concept="KWDhv" id="9gPY8ME4zz" role="KWDeM" />
       </node>
     </node>
     <node concept="1etB5T" id="5hH76qRqdYm" role="1etB5S" />
